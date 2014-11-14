@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Jen Hamon]]></title>
-  <link href="http://hamon.io/atom.xml" rel="self"/>
-  <link href="http://hamon.io/"/>
-  <updated>2014-11-13T20:02:35-08:00</updated>
-  <id>http://hamon.io/</id>
+  <link href="http://jhamon.github.io/blog/atom.xml" rel="self"/>
+  <link href="http://jhamon.github.io/blog/"/>
+  <updated>2014-11-13T20:07:09-08:00</updated>
+  <id>http://jhamon.github.io/blog/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Enforcing Your Template Pattern Interface With RSpec Shared Examples]]></title>
-    <link href="http://hamon.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec/"/>
+    <link href="http://jhamon.github.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec/"/>
     <updated>2014-10-09T18:00:35-07:00</updated>
-    <id>http://hamon.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec</id>
+    <id>http://jhamon.github.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec</id>
     <content type="html"><![CDATA[<p>The template pattern comes into play when you have several different use cases that are mostly the same but differ in just a few ways.  Shared functionality and skeleton methods are defined in a base class, which will be overridden by each subclass.  Each subclass provides a different implementation for the skeleton functions, and because all these objects all share a common interface we can use them interchangeably in other parts of our code.</p>
 
 <h2>Using class inheritance</h2>
@@ -270,9 +270,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Few Debugging Tips for the Rails Console]]></title>
-    <link href="http://hamon.io/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console/"/>
+    <link href="http://jhamon.github.io/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console/"/>
     <updated>2014-10-09T17:10:19-07:00</updated>
-    <id>http://hamon.io/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console</id>
+    <id>http://jhamon.github.io/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console</id>
     <content type="html"><![CDATA[<p>This post will be a little less coherent than some of the others, but I wanted to write down a few things I&rsquo;ve found to be very helpful when trying to debug my Ruby code.</p>
 
 <h2>Quickly find syntax errors</h2>
@@ -399,9 +399,9 @@
   
   <entry>
     <title type="html"><![CDATA[Building Elementary Cellular Automata in Ruby]]></title>
-    <link href="http://hamon.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
+    <link href="http://jhamon.github.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
     <updated>2014-10-09T01:31:32-07:00</updated>
-    <id>http://hamon.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
+    <id>http://jhamon.github.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
     <content type="html"><![CDATA[<p>Cellular automata are simulations where each location in a space can have a finite number of states (usually <code>on</code> or <code>off</code>, or <code>0</code> and <code>1</code>). The state at a particular location can change through time according to specific rules. Most such systems are fairly boring, but some sets of rules can give rise to surprisingly complex behavior.  Whole branches of math and computer science are devoted to the study of these simulations.</p>
 
 <p>There&rsquo;s a good chance you&rsquo;ve seen an implementation of <em>Conway&rsquo;s Game of Life</em>, which is the most well-known example of cellular automation. <em>Life</em> is set on a two-dimensional grid, and self-replicating <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns">patterns</a> called <em>gliders</em> are a common occurance.</p>
@@ -443,9 +443,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Using JavaScript Animation to Communicate IFTTT at a Glance]]></title>
-    <link href="http://hamon.io/blog/2014/08/11/communicating-ifttt-at-a-glance/"/>
+    <link href="http://jhamon.github.io/blog/2014/08/11/communicating-ifttt-at-a-glance/"/>
     <updated>2014-08-11T16:11:20-07:00</updated>
-    <id>http://hamon.io/blog/2014/08/11/communicating-ifttt-at-a-glance</id>
+    <id>http://jhamon.github.io/blog/2014/08/11/communicating-ifttt-at-a-glance</id>
     <content type="html"><![CDATA[<p data-height="268" data-theme-id="0" data-slug-hash="GhrjF" data-default-tab="result" data-user="jhamon" class='codepen'>See the Pen <a href='http://codepen.io/jhamon/pen/GhrjF/'>IFTTT Slottt Machine</a> by Jennifer Hamon (<a href='http://codepen.io/jhamon'>@jhamon</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 
@@ -786,9 +786,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Improve Your Animation Performance With requestAnimationFrame]]></title>
-    <link href="http://hamon.io/blog/2014/05/03/requestanimationframe/"/>
+    <link href="http://jhamon.github.io/blog/2014/05/03/requestanimationframe/"/>
     <updated>2014-05-03T07:09:19-07:00</updated>
-    <id>http://hamon.io/blog/2014/05/03/requestanimationframe</id>
+    <id>http://jhamon.github.io/blog/2014/05/03/requestanimationframe</id>
     <content type="html"><![CDATA[<p>At their most basic core, browser animations have the following structure:</p>
 
 <ol>
@@ -858,9 +858,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Conway's Game of Life:<br>My Favorite Code Kata]]></title>
-    <link href="http://hamon.io/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata/"/>
+    <link href="http://jhamon.github.io/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata/"/>
     <updated>2014-04-03T15:59:24-07:00</updated>
-    <id>http://hamon.io/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata</id>
+    <id>http://jhamon.github.io/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata</id>
     <content type="html"><![CDATA[<p>Conway&rsquo;s Game of Life holds a special place in my heart.  The first non-trivial program I ever wrote was a simple version of the game implemented in Python, and when I decided to learn JavaScript I began by coding up Life.  Life makes a great code kata because it is relatively quick and easy to get a basic version going, but it also leaves a lot of room for experimentation and improvement.</p>
 
 <p>I&rsquo;ve now done this several times in JavaScript, each time learning something new.  My first implementation was to learn basic JavaScript syntax  and the HTML5 Canvas API, but the code was pretty terrible by my current standards. A second implementation went after the low-hanging fruit by improving the separation of concerns between view rendering and game calculations.</p>
@@ -879,9 +879,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Serpent.io]]></title>
-    <link href="http://hamon.io/blog/2014/03/14/serpent-dot-io/"/>
+    <link href="http://jhamon.github.io/blog/2014/03/14/serpent-dot-io/"/>
     <updated>2014-03-14T17:24:12-07:00</updated>
-    <id>http://hamon.io/blog/2014/03/14/serpent-dot-io</id>
+    <id>http://jhamon.github.io/blog/2014/03/14/serpent-dot-io</id>
     <content type="html"><![CDATA[<p>It seems like everybody has written a snake game at some point in their programming life.  I&rsquo;m no exception.  <a href="http://www.serpent.io">Serpent.io</a> is my entry, built from scratch with Backbone.js and a lightweight Rails scoreboard backend.</p>
 
 <p>Serpent.io is actually my second crack at snake.  When I first wrote this game I was still learning the &ldquo;JavaScript way&rdquo; of doing object-oriented programming with prototypical inheritance. I more or less succeeded in that aspect, but the code responsible for rendering the view and managing user interactions was a huge ball of mud. At that time I knew just enough jQuery to be dangerous, and while the basic mechanics seemed to work I had all my truth in the DOM and ran into a wall while trying to extend it to have more features. I wasn&rsquo;t unbinding events properly, so chaos ensued when I tried to reset the game for another play without a hard refresh. It was a mess, but I had other things I wanted to work on.</p>
@@ -900,9 +900,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Keeping Your Secrets Safe With Figaro]]></title>
-    <link href="http://hamon.io/blog/2014/01/08/keeping-your-secrets-safe/"/>
+    <link href="http://jhamon.github.io/blog/2014/01/08/keeping-your-secrets-safe/"/>
     <updated>2014-01-08T21:22:01-08:00</updated>
-    <id>http://hamon.io/blog/2014/01/08/keeping-your-secrets-safe</id>
+    <id>http://jhamon.github.io/blog/2014/01/08/keeping-your-secrets-safe</id>
     <content type="html"><![CDATA[<p>While working on several of my side projects, I&rsquo;ve often had a need to store secret information in my project.  I need a way to make things like API keys available to my application without accidentally exposing them to others when, for instance, I push that code to Github or Bitbucket.</p>
 
 <p>Many people much smarter than myself have thought about the problem of managing secrets, and one the suggested solutions is to <a href="http://12factor.net/config">store configuration information in the environment</a>. The advantage of this approach, besides keeping your credentials out of your git history, is that it allows you to easily configure environment-specific as needed by keeping the things that change (the API keys) seperate from the application being deployed.</p>
@@ -1003,9 +1003,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[AdoptMeme:<br>Meme Generator Meets petfinder.com]]></title>
-    <link href="http://hamon.io/blog/2013/11/15/adoptmeme/"/>
+    <link href="http://jhamon.github.io/blog/2013/11/15/adoptmeme/"/>
     <updated>2013-11-15T16:05:44-08:00</updated>
-    <id>http://hamon.io/blog/2013/11/15/adoptmeme</id>
+    <id>http://jhamon.github.io/blog/2013/11/15/adoptmeme</id>
     <content type="html"><![CDATA[<p>When I began <a href="http://www.adoptme.me">AdoptMe.me</a>, I knew it was an ambitious project because of the many moving parts involved.  I learned a lot from the process, both successes and failures, but the project is currently on inedefinite hiatus. You can view the bones live on the web at <a href="http://www.adoptme.me">AdoptMe.me</a>.  </p>
 
 
@@ -1088,9 +1088,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Avoiding the Female Programmer Ghetto]]></title>
-    <link href="http://hamon.io/blog/2013/10/31/how-i-feel-about-girls-only-programming-events/"/>
+    <link href="http://jhamon.github.io/blog/2013/10/31/how-i-feel-about-girls-only-programming-events/"/>
     <updated>2013-10-31T17:04:38-07:00</updated>
-    <id>http://hamon.io/blog/2013/10/31/how-i-feel-about-girls-only-programming-events</id>
+    <id>http://jhamon.github.io/blog/2013/10/31/how-i-feel-about-girls-only-programming-events</id>
     <content type="html"><![CDATA[<p>Today I met somebody doing the <a href="http://www.hackbrightacademy.com/">Hackbright Academy</a> bootcamp. I remember looking at that program earlier this year when I was evaluating the available paths through my career change from science into software development. Even though Hackbright has a shiny website and a decent reputation, I ruled them out quickly because I don’t want to be a <em>female programmer</em>. I don’t want to get hired as a <em>female programmer</em>, and I definitely don&rsquo;t want to be the token female filling out a company’s diversity quota. It seems as if Hackbright and similar women-only programs, though well-intentioned, should be a magnet for companies looking to pad their gender ratio, and I just don’t want to be recruited on that basis.</p>
 
 <p>Honestly, I just want to keep learning and working on interesting problems. Code is code, and I don&rsquo;t want any well-meaning developer-mentors using their kid gloves to take what should be a sink-or-swim extreme learning situation and turn it into happy fun play time. I’m sure the program is probably very good, but I couldn’t suppress my horror-fantasy about it being a programming sorority.</p>
@@ -1103,9 +1103,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Learning Prototypical Inheritance With Asteroids]]></title>
-    <link href="http://hamon.io/blog/2013/10/12/asteroids/"/>
+    <link href="http://jhamon.github.io/blog/2013/10/12/asteroids/"/>
     <updated>2013-10-12T17:28:49-07:00</updated>
-    <id>http://hamon.io/blog/2013/10/12/asteroids</id>
+    <id>http://jhamon.github.io/blog/2013/10/12/asteroids</id>
     <content type="html"><![CDATA[<p>Asteroids is more experiment than finished game since there are no win conditions. It&rsquo;s one of the first things I made using JavaScript, and it was a great way to wrap my head around JavaScript&rsquo;s prototypical inheritance. The game has several different types of objects (the spaceship, bullets, asteroids) that have specific behaviors but have a common need to know where they are, move around, etc. This is easily accomplished by having a base object, MovingObject.prototype, that all other objects delegate to (a.k.a. &ldquo;inherit from&rdquo;).</p>
 
 <p>Here&rsquo;s a simplified snippet showing the inheritance pattern:</p>
@@ -1165,9 +1165,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Don't Reinvent the Wheel :<br>Rails Validations Beyond the Basics]]></title>
-    <link href="http://hamon.io/blog/2013/10/10/advanced-rails-validations/"/>
+    <link href="http://jhamon.github.io/blog/2013/10/10/advanced-rails-validations/"/>
     <updated>2013-10-10T23:43:11-07:00</updated>
-    <id>http://hamon.io/blog/2013/10/10/advanced-rails-validations</id>
+    <id>http://jhamon.github.io/blog/2013/10/10/advanced-rails-validations</id>
     <content type="html"><![CDATA[<p>If you&rsquo;ve gone through a Rails tutorial like the Hartl Rails Tutorial or Rails For Zombies, you&rsquo;ll be familiar with common model validations that prevent saving duplicate or incomplete records.  Throughout this piece I&rsquo;ll be talking about a <code>Padawan</code> class, that might begin looking something like this:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -1541,9 +1541,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Blocks, Procs, and Lamdas: A Tour of Anonymous Functions in Ruby]]></title>
-    <link href="http://hamon.io/blog/2013/09/10/blocks/"/>
+    <link href="http://jhamon.github.io/blog/2013/09/10/blocks/"/>
     <updated>2013-09-10T12:27:47-07:00</updated>
-    <id>http://hamon.io/blog/2013/09/10/blocks</id>
+    <id>http://jhamon.github.io/blog/2013/09/10/blocks</id>
     <content type="html"><![CDATA[<p>Great news! Ruby has several ways of creating and passing around anonymous functions.  Key language features like the <code>Enumerable</code> module would not be possible without this capability.</p>
 
 <p>You might not even realize that when you are using a function that takes a block, you have just written an anonymous function. An anonymous function is exactly what it sounds like: a function with no name.</p>
@@ -1831,9 +1831,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Why I'm Quitting My Caltech PhD]]></title>
-    <link href="http://hamon.io/blog/2013/02/28/why-i-quit-my-caltech-phd/"/>
+    <link href="http://jhamon.github.io/blog/2013/02/28/why-i-quit-my-caltech-phd/"/>
     <updated>2013-02-28T11:28:02-08:00</updated>
-    <id>http://hamon.io/blog/2013/02/28/why-i-quit-my-caltech-phd</id>
+    <id>http://jhamon.github.io/blog/2013/02/28/why-i-quit-my-caltech-phd</id>
     <content type="html"><![CDATA[<p>For those who don&rsquo;t know, I&rsquo;ve been working on a PhD at the intersection of geology and geophysics. I will be leaving with a Master&rsquo;s degree at the end of this year.</p>
 
 <p>I was originally attracted to geosciences because from 30,000 feet the subject matter has a definite aesthetic appeal.  When I think about the scale and size and antiquity of the Earth, I feel humble and in awe that I even exist at all.  I&rsquo;m not a religious person, but that feeling of awe toward nature is what originally attracted me to science as vocation.</p>
@@ -1874,9 +1874,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Not Your Grandmother's Flashcards]]></title>
-    <link href="http://hamon.io/blog/2012/01/17/not-your-grandmothers-flashcards/"/>
+    <link href="http://jhamon.github.io/blog/2012/01/17/not-your-grandmothers-flashcards/"/>
     <updated>2012-01-17T02:43:01-08:00</updated>
-    <id>http://hamon.io/blog/2012/01/17/not-your-grandmothers-flashcards</id>
+    <id>http://jhamon.github.io/blog/2012/01/17/not-your-grandmothers-flashcards</id>
     <content type="html"><![CDATA[<p>Richard Feynmann famously bemoaned the way that too many students memorized
 instead of thought their way through problems.  Over the years the pendulum has swung very far in the othe direction, to the point that the only time I remember anyone being asked to perform moderate feats of memorization were for Organic Chemistry.</p>
 
