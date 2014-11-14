@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Projects | Jen Hamon]]></title>
-  <link href="http://jhamon.github.io/blog/blog/categories/projects/atom.xml" rel="self"/>
-  <link href="http://jhamon.github.io/blog/"/>
-  <updated>2014-11-13T19:51:27-08:00</updated>
-  <id>http://jhamon.github.io/blog/</id>
+  <link href="http://hamon.io/blog/categories/projects/atom.xml" rel="self"/>
+  <link href="http://hamon.io/"/>
+  <updated>2014-11-13T20:02:35-08:00</updated>
+  <id>http://hamon.io/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Building Elementary Cellular Automata in Ruby]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
+    <link href="http://hamon.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
     <updated>2014-10-09T01:31:32-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
+    <id>http://hamon.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
     <content type="html"><![CDATA[<p>Cellular automata are simulations where each location in a space can have a finite number of states (usually <code>on</code> or <code>off</code>, or <code>0</code> and <code>1</code>). The state at a particular location can change through time according to specific rules. Most such systems are fairly boring, but some sets of rules can give rise to surprisingly complex behavior.  Whole branches of math and computer science are devoted to the study of these simulations.</p>
 
 <p>There&rsquo;s a good chance you&rsquo;ve seen an implementation of <em>Conway&rsquo;s Game of Life</em>, which is the most well-known example of cellular automation. <em>Life</em> is set on a two-dimensional grid, and self-replicating <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns">patterns</a> called <em>gliders</em> are a common occurance.</p>
@@ -59,9 +59,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Using JavaScript Animation to Communicate IFTTT at a Glance]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/08/11/communicating-ifttt-at-a-glance/"/>
+    <link href="http://hamon.io/blog/2014/08/11/communicating-ifttt-at-a-glance/"/>
     <updated>2014-08-11T16:11:20-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/08/11/communicating-ifttt-at-a-glance</id>
+    <id>http://hamon.io/blog/2014/08/11/communicating-ifttt-at-a-glance</id>
     <content type="html"><![CDATA[<p data-height="268" data-theme-id="0" data-slug-hash="GhrjF" data-default-tab="result" data-user="jhamon" class='codepen'>See the Pen <a href='http://codepen.io/jhamon/pen/GhrjF/'>IFTTT Slottt Machine</a> by Jennifer Hamon (<a href='http://codepen.io/jhamon'>@jhamon</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 
@@ -276,9 +276,9 @@ function animate() {
   
   <entry>
     <title type="html"><![CDATA[Conway's Game of Life:<br>My Favorite Code Kata]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata/"/>
+    <link href="http://hamon.io/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata/"/>
     <updated>2014-04-03T15:59:24-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata</id>
+    <id>http://hamon.io/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata</id>
     <content type="html"><![CDATA[<p>Conway&rsquo;s Game of Life holds a special place in my heart.  The first non-trivial program I ever wrote was a simple version of the game implemented in Python, and when I decided to learn JavaScript I began by coding up Life.  Life makes a great code kata because it is relatively quick and easy to get a basic version going, but it also leaves a lot of room for experimentation and improvement.</p>
 
 <p>I&rsquo;ve now done this several times in JavaScript, each time learning something new.  My first implementation was to learn basic JavaScript syntax  and the HTML5 Canvas API, but the code was pretty terrible by my current standards. A second implementation went after the low-hanging fruit by improving the separation of concerns between view rendering and game calculations.</p>
@@ -297,9 +297,9 @@ function animate() {
   
   <entry>
     <title type="html"><![CDATA[Serpent.io]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/03/14/serpent-dot-io/"/>
+    <link href="http://hamon.io/blog/2014/03/14/serpent-dot-io/"/>
     <updated>2014-03-14T17:24:12-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/03/14/serpent-dot-io</id>
+    <id>http://hamon.io/blog/2014/03/14/serpent-dot-io</id>
     <content type="html"><![CDATA[<p>It seems like everybody has written a snake game at some point in their programming life.  I&rsquo;m no exception.  <a href="http://www.serpent.io">Serpent.io</a> is my entry, built from scratch with Backbone.js and a lightweight Rails scoreboard backend.</p>
 
 <p>Serpent.io is actually my second crack at snake.  When I first wrote this game I was still learning the &ldquo;JavaScript way&rdquo; of doing object-oriented programming with prototypical inheritance. I more or less succeeded in that aspect, but the code responsible for rendering the view and managing user interactions was a huge ball of mud. At that time I knew just enough jQuery to be dangerous, and while the basic mechanics seemed to work I had all my truth in the DOM and ran into a wall while trying to extend it to have more features. I wasn&rsquo;t unbinding events properly, so chaos ensued when I tried to reset the game for another play without a hard refresh. It was a mess, but I had other things I wanted to work on.</p>
@@ -318,9 +318,9 @@ function animate() {
   
   <entry>
     <title type="html"><![CDATA[AdoptMeme:<br>Meme Generator Meets petfinder.com]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2013/11/15/adoptmeme/"/>
+    <link href="http://hamon.io/blog/2013/11/15/adoptmeme/"/>
     <updated>2013-11-15T16:05:44-08:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2013/11/15/adoptmeme</id>
+    <id>http://hamon.io/blog/2013/11/15/adoptmeme</id>
     <content type="html"><![CDATA[<p>When I began <a href="http://www.adoptme.me">AdoptMe.me</a>, I knew it was an ambitious project because of the many moving parts involved.  I learned a lot from the process, both successes and failures, but the project is currently on inedefinite hiatus. You can view the bones live on the web at <a href="http://www.adoptme.me">AdoptMe.me</a>.  </p>
 
 

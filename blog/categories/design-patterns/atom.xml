@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Design-patterns | Jen Hamon]]></title>
-  <link href="http://jhamon.github.io/blog/blog/categories/design-patterns/atom.xml" rel="self"/>
-  <link href="http://jhamon.github.io/blog/"/>
-  <updated>2014-11-13T19:51:27-08:00</updated>
-  <id>http://jhamon.github.io/blog/</id>
+  <link href="http://hamon.io/blog/categories/design-patterns/atom.xml" rel="self"/>
+  <link href="http://hamon.io/"/>
+  <updated>2014-11-13T20:02:35-08:00</updated>
+  <id>http://hamon.io/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Enforcing Your Template Pattern Interface With RSpec Shared Examples]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec/"/>
+    <link href="http://hamon.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec/"/>
     <updated>2014-10-09T18:00:35-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec</id>
+    <id>http://hamon.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec</id>
     <content type="html"><![CDATA[<p>The template pattern comes into play when you have several different use cases that are mostly the same but differ in just a few ways.  Shared functionality and skeleton methods are defined in a base class, which will be overridden by each subclass.  Each subclass provides a different implementation for the skeleton functions, and because all these objects all share a common interface we can use them interchangeably in other parts of our code.</p>
 
 <h2>Using class inheritance</h2>
@@ -160,9 +160,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[Building Elementary Cellular Automata in Ruby]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
+    <link href="http://hamon.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
     <updated>2014-10-09T01:31:32-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
+    <id>http://hamon.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
     <content type="html"><![CDATA[<p>Cellular automata are simulations where each location in a space can have a finite number of states (usually <code>on</code> or <code>off</code>, or <code>0</code> and <code>1</code>). The state at a particular location can change through time according to specific rules. Most such systems are fairly boring, but some sets of rules can give rise to surprisingly complex behavior.  Whole branches of math and computer science are devoted to the study of these simulations.</p>
 
 <p>There&rsquo;s a good chance you&rsquo;ve seen an implementation of <em>Conway&rsquo;s Game of Life</em>, which is the most well-known example of cellular automation. <em>Life</em> is set on a two-dimensional grid, and self-replicating <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns">patterns</a> called <em>gliders</em> are a common occurance.</p>

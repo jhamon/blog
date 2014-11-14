@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://jhamon.github.io/blog/sitemap.xml 
+Sitemap: http://hamon.io/sitemap.xml 

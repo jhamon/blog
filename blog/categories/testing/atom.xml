@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Testing | Jen Hamon]]></title>
-  <link href="http://jhamon.github.io/blog/blog/categories/testing/atom.xml" rel="self"/>
-  <link href="http://jhamon.github.io/blog/"/>
-  <updated>2014-11-13T19:51:27-08:00</updated>
-  <id>http://jhamon.github.io/blog/</id>
+  <link href="http://hamon.io/blog/categories/testing/atom.xml" rel="self"/>
+  <link href="http://hamon.io/"/>
+  <updated>2014-11-13T20:02:35-08:00</updated>
+  <id>http://hamon.io/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Enforcing Your Template Pattern Interface With RSpec Shared Examples]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec/"/>
+    <link href="http://hamon.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec/"/>
     <updated>2014-10-09T18:00:35-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec</id>
+    <id>http://hamon.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec</id>
     <content type="html"><![CDATA[<p>The template pattern comes into play when you have several different use cases that are mostly the same but differ in just a few ways.  Shared functionality and skeleton methods are defined in a base class, which will be overridden by each subclass.  Each subclass provides a different implementation for the skeleton functions, and because all these objects all share a common interface we can use them interchangeably in other parts of our code.</p>
 
 <h2>Using class inheritance</h2>

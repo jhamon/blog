@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Rails | Jen Hamon]]></title>
-  <link href="http://jhamon.github.io/blog/blog/categories/rails/atom.xml" rel="self"/>
-  <link href="http://jhamon.github.io/blog/"/>
-  <updated>2014-11-13T19:51:27-08:00</updated>
-  <id>http://jhamon.github.io/blog/</id>
+  <link href="http://hamon.io/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://hamon.io/"/>
+  <updated>2014-11-13T20:02:35-08:00</updated>
+  <id>http://hamon.io/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Enforcing Your Template Pattern Interface With RSpec Shared Examples]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec/"/>
+    <link href="http://hamon.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec/"/>
     <updated>2014-10-09T18:00:35-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec</id>
+    <id>http://hamon.io/blog/2014/10/09/enforcing-your-template-pattern-interface-with-rspec</id>
     <content type="html"><![CDATA[<p>The template pattern comes into play when you have several different use cases that are mostly the same but differ in just a few ways.  Shared functionality and skeleton methods are defined in a base class, which will be overridden by each subclass.  Each subclass provides a different implementation for the skeleton functions, and because all these objects all share a common interface we can use them interchangeably in other parts of our code.</p>
 
 <h2>Using class inheritance</h2>
@@ -160,9 +160,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[Keeping Your Secrets Safe With Figaro]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/01/08/keeping-your-secrets-safe/"/>
+    <link href="http://hamon.io/blog/2014/01/08/keeping-your-secrets-safe/"/>
     <updated>2014-01-08T21:22:01-08:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/01/08/keeping-your-secrets-safe</id>
+    <id>http://hamon.io/blog/2014/01/08/keeping-your-secrets-safe</id>
     <content type="html"><![CDATA[<p>While working on several of my side projects, I&rsquo;ve often had a need to store secret information in my project.  I need a way to make things like API keys available to my application without accidentally exposing them to others when, for instance, I push that code to Github or Bitbucket.</p>
 
 <p>Many people much smarter than myself have thought about the problem of managing secrets, and one the suggested solutions is to <a href="http://12factor.net/config">store configuration information in the environment</a>. The advantage of this approach, besides keeping your credentials out of your git history, is that it allows you to easily configure environment-specific as needed by keeping the things that change (the API keys) seperate from the application being deployed.</p>
@@ -232,9 +232,9 @@ MyApp::Application.config.secret_key_base = ENV['secret_token_base']
   
   <entry>
     <title type="html"><![CDATA[Don't Reinvent the Wheel :<br>Rails Validations Beyond the Basics]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2013/10/10/advanced-rails-validations/"/>
+    <link href="http://hamon.io/blog/2013/10/10/advanced-rails-validations/"/>
     <updated>2013-10-10T23:43:11-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2013/10/10/advanced-rails-validations</id>
+    <id>http://hamon.io/blog/2013/10/10/advanced-rails-validations</id>
     <content type="html"><![CDATA[<p>If you&rsquo;ve gone through a Rails tutorial like the Hartl Rails Tutorial or Rails For Zombies, you&rsquo;ll be familiar with common model validations that prevent saving duplicate or incomplete records.  Throughout this piece I&rsquo;ll be talking about a <code>Padawan</code> class, that might begin looking something like this:</p>
 
 <pre><code class="ruby">class Padawan &lt; ActiveRecord::Base

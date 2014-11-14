@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Javascript | Jen Hamon]]></title>
-  <link href="http://jhamon.github.io/blog/blog/categories/javascript/atom.xml" rel="self"/>
-  <link href="http://jhamon.github.io/blog/"/>
-  <updated>2014-11-13T19:51:27-08:00</updated>
-  <id>http://jhamon.github.io/blog/</id>
+  <link href="http://hamon.io/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://hamon.io/"/>
+  <updated>2014-11-13T20:02:35-08:00</updated>
+  <id>http://hamon.io/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using JavaScript Animation to Communicate IFTTT at a Glance]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/08/11/communicating-ifttt-at-a-glance/"/>
+    <link href="http://hamon.io/blog/2014/08/11/communicating-ifttt-at-a-glance/"/>
     <updated>2014-08-11T16:11:20-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/08/11/communicating-ifttt-at-a-glance</id>
+    <id>http://hamon.io/blog/2014/08/11/communicating-ifttt-at-a-glance</id>
     <content type="html"><![CDATA[<p data-height="268" data-theme-id="0" data-slug-hash="GhrjF" data-default-tab="result" data-user="jhamon" class='codepen'>See the Pen <a href='http://codepen.io/jhamon/pen/GhrjF/'>IFTTT Slottt Machine</a> by Jennifer Hamon (<a href='http://codepen.io/jhamon'>@jhamon</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
 
@@ -232,9 +232,9 @@ function animate() {
   
   <entry>
     <title type="html"><![CDATA[Improve Your Animation Performance With requestAnimationFrame]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/05/03/requestanimationframe/"/>
+    <link href="http://hamon.io/blog/2014/05/03/requestanimationframe/"/>
     <updated>2014-05-03T07:09:19-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/05/03/requestanimationframe</id>
+    <id>http://hamon.io/blog/2014/05/03/requestanimationframe</id>
     <content type="html"><![CDATA[<p>At their most basic core, browser animations have the following structure:</p>
 
 <ol>
@@ -290,9 +290,9 @@ requestAnimationFrame(animate);
   
   <entry>
     <title type="html"><![CDATA[Conway's Game of Life:<br>My Favorite Code Kata]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata/"/>
+    <link href="http://hamon.io/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata/"/>
     <updated>2014-04-03T15:59:24-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata</id>
+    <id>http://hamon.io/blog/2014/04/03/conways-game-of-life-my-favorite-code-kata</id>
     <content type="html"><![CDATA[<p>Conway&rsquo;s Game of Life holds a special place in my heart.  The first non-trivial program I ever wrote was a simple version of the game implemented in Python, and when I decided to learn JavaScript I began by coding up Life.  Life makes a great code kata because it is relatively quick and easy to get a basic version going, but it also leaves a lot of room for experimentation and improvement.</p>
 
 <p>I&rsquo;ve now done this several times in JavaScript, each time learning something new.  My first implementation was to learn basic JavaScript syntax  and the HTML5 Canvas API, but the code was pretty terrible by my current standards. A second implementation went after the low-hanging fruit by improving the separation of concerns between view rendering and game calculations.</p>
@@ -311,9 +311,9 @@ requestAnimationFrame(animate);
   
   <entry>
     <title type="html"><![CDATA[Learning Prototypical Inheritance With Asteroids]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2013/10/12/asteroids/"/>
+    <link href="http://hamon.io/blog/2013/10/12/asteroids/"/>
     <updated>2013-10-12T17:28:49-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2013/10/12/asteroids</id>
+    <id>http://hamon.io/blog/2013/10/12/asteroids</id>
     <content type="html"><![CDATA[<p>Asteroids is more experiment than finished game since there are no win conditions. It&rsquo;s one of the first things I made using JavaScript, and it was a great way to wrap my head around JavaScript&rsquo;s prototypical inheritance. The game has several different types of objects (the spaceship, bullets, asteroids) that have specific behaviors but have a common need to know where they are, move around, etc. This is easily accomplished by having a base object, MovingObject.prototype, that all other objects delegate to (a.k.a. &ldquo;inherit from&rdquo;).</p>
 
 <p>Here&rsquo;s a simplified snippet showing the inheritance pattern:</p>

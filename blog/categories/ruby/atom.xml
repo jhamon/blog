@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ruby | Jen Hamon]]></title>
-  <link href="http://jhamon.github.io/blog/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://jhamon.github.io/blog/"/>
-  <updated>2014-11-13T19:51:27-08:00</updated>
-  <id>http://jhamon.github.io/blog/</id>
+  <link href="http://hamon.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://hamon.io/"/>
+  <updated>2014-11-13T20:02:35-08:00</updated>
+  <id>http://hamon.io/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Few Debugging Tips for the Rails Console]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console/"/>
+    <link href="http://hamon.io/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console/"/>
     <updated>2014-10-09T17:10:19-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console</id>
+    <id>http://hamon.io/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console</id>
     <content type="html"><![CDATA[<p>This post will be a little less coherent than some of the others, but I wanted to write down a few things I&rsquo;ve found to be very helpful when trying to debug my Ruby code.</p>
 
 <h2>Quickly find syntax errors</h2>
@@ -102,9 +102,9 @@ woof
   
   <entry>
     <title type="html"><![CDATA[Building Elementary Cellular Automata in Ruby]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
+    <link href="http://hamon.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
     <updated>2014-10-09T01:31:32-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
+    <id>http://hamon.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
     <content type="html"><![CDATA[<p>Cellular automata are simulations where each location in a space can have a finite number of states (usually <code>on</code> or <code>off</code>, or <code>0</code> and <code>1</code>). The state at a particular location can change through time according to specific rules. Most such systems are fairly boring, but some sets of rules can give rise to surprisingly complex behavior.  Whole branches of math and computer science are devoted to the study of these simulations.</p>
 
 <p>There&rsquo;s a good chance you&rsquo;ve seen an implementation of <em>Conway&rsquo;s Game of Life</em>, which is the most well-known example of cellular automation. <em>Life</em> is set on a two-dimensional grid, and self-replicating <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns">patterns</a> called <em>gliders</em> are a common occurance.</p>
@@ -146,9 +146,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Don't Reinvent the Wheel :<br>Rails Validations Beyond the Basics]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2013/10/10/advanced-rails-validations/"/>
+    <link href="http://hamon.io/blog/2013/10/10/advanced-rails-validations/"/>
     <updated>2013-10-10T23:43:11-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2013/10/10/advanced-rails-validations</id>
+    <id>http://hamon.io/blog/2013/10/10/advanced-rails-validations</id>
     <content type="html"><![CDATA[<p>If you&rsquo;ve gone through a Rails tutorial like the Hartl Rails Tutorial or Rails For Zombies, you&rsquo;ll be familiar with common model validations that prevent saving duplicate or incomplete records.  Throughout this piece I&rsquo;ll be talking about a <code>Padawan</code> class, that might begin looking something like this:</p>
 
 <pre><code class="ruby">class Padawan &lt; ActiveRecord::Base
@@ -368,9 +368,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[Blocks, Procs, and Lamdas: A Tour of Anonymous Functions in Ruby]]></title>
-    <link href="http://jhamon.github.io/blog/blog/2013/09/10/blocks/"/>
+    <link href="http://hamon.io/blog/2013/09/10/blocks/"/>
     <updated>2013-09-10T12:27:47-07:00</updated>
-    <id>http://jhamon.github.io/blog/blog/2013/09/10/blocks</id>
+    <id>http://hamon.io/blog/2013/09/10/blocks</id>
     <content type="html"><![CDATA[<p>Great news! Ruby has several ways of creating and passing around anonymous functions.  Key language features like the <code>Enumerable</code> module would not be possible without this capability.</p>
 
 <p>You might not even realize that when you are using a function that takes a block, you have just written an anonymous function. An anonymous function is exactly what it sounds like: a function with no name.</p>
