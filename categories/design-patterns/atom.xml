@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Design-patterns | Jen Hamon]]></title>
   <link href="http://jhamon.github.io/blog/categories/design-patterns/atom.xml" rel="self"/>
   <link href="http://jhamon.github.io/blog/"/>
-  <updated>2014-11-13T20:13:17-08:00</updated>
+  <updated>2014-11-15T21:39:17-08:00</updated>
   <id>http://jhamon.github.io/blog/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
@@ -160,9 +160,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[Building Elementary Cellular Automata in Ruby]]></title>
-    <link href="http://jhamon.github.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
-    <updated>2014-10-09T01:31:32-07:00</updated>
-    <id>http://jhamon.github.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
+    <link href="http://jhamon.github.io/blog/2014/05/10/building-elementary-cellular-automata-in-ruby/"/>
+    <updated>2014-05-10T01:31:32-07:00</updated>
+    <id>http://jhamon.github.io/blog/2014/05/10/building-elementary-cellular-automata-in-ruby</id>
     <content type="html"><![CDATA[<p>Cellular automata are simulations where each location in a space can have a finite number of states (usually <code>on</code> or <code>off</code>, or <code>0</code> and <code>1</code>). The state at a particular location can change through time according to specific rules. Most such systems are fairly boring, but some sets of rules can give rise to surprisingly complex behavior.  Whole branches of math and computer science are devoted to the study of these simulations.</p>
 
 <p>There&rsquo;s a good chance you&rsquo;ve seen an implementation of <em>Conway&rsquo;s Game of Life</em>, which is the most well-known example of cellular automation. <em>Life</em> is set on a two-dimensional grid, and self-replicating <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns">patterns</a> called <em>gliders</em> are a common occurance.</p>

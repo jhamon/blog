@@ -11,17 +11,9 @@
   </url>
   
   <url>
-    <loc>http://jhamon.github.io/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console/</loc>
+    <loc>http://jhamon.github.io/blog/2014/10/01/a-few-debugging-tips-for-the-rails-console/</loc>
     
-    <lastmod>2014-10-09T17:10:19-07:00</lastmod>
-    
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://jhamon.github.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/</loc>
-    
-    <lastmod>2014-10-09T01:31:32-07:00</lastmod>
+    <lastmod>2014-10-01T17:10:19-07:00</lastmod>
     
     <priority>0.8</priority>
   </url>
@@ -35,9 +27,17 @@
   </url>
   
   <url>
-    <loc>http://jhamon.github.io/blog/2014/05/03/requestanimationframe/</loc>
+    <loc>http://jhamon.github.io/blog/2014/06/03/requestanimationframe/</loc>
     
-    <lastmod>2014-05-03T07:09:19-07:00</lastmod>
+    <lastmod>2014-06-03T07:09:19-07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jhamon.github.io/blog/2014/05/10/building-elementary-cellular-automata-in-ruby/</loc>
+    
+    <lastmod>2014-05-10T01:31:32-07:00</lastmod>
     
     <priority>0.8</priority>
   </url>
@@ -125,28 +125,28 @@
   
   <url>
     <loc>http://jhamon.github.io/blog/archives/</loc>
-    <lastmod>2014-11-13T20:13:17-08:00</lastmod>
+    <lastmod>2014-11-15T21:39:17-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://jhamon.github.io/blog/</loc>
-    <lastmod>2014-11-13T20:13:17-08:00</lastmod>
+    <lastmod>2014-11-15T21:39:17-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://jhamon.github.io/blog/portfolio/</loc>
-    <lastmod>2014-11-13T20:13:17-08:00</lastmod>
+    <lastmod>2014-11-15T21:39:17-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://jhamon.github.io/blog/search.html</loc>
-    <lastmod>2014-11-13T20:13:17-08:00</lastmod>
+    <lastmod>2014-11-15T21:39:17-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

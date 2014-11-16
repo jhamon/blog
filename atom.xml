@@ -4,7 +4,7 @@
   <title><![CDATA[Jen Hamon]]></title>
   <link href="http://jhamon.github.io/blog/atom.xml" rel="self"/>
   <link href="http://jhamon.github.io/blog/"/>
-  <updated>2014-11-13T20:13:17-08:00</updated>
+  <updated>2014-11-15T21:39:17-08:00</updated>
   <id>http://jhamon.github.io/blog/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
@@ -270,9 +270,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Few Debugging Tips for the Rails Console]]></title>
-    <link href="http://jhamon.github.io/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console/"/>
-    <updated>2014-10-09T17:10:19-07:00</updated>
-    <id>http://jhamon.github.io/blog/2014/10/09/a-few-debugging-tips-for-the-rails-console</id>
+    <link href="http://jhamon.github.io/blog/2014/10/01/a-few-debugging-tips-for-the-rails-console/"/>
+    <updated>2014-10-01T17:10:19-07:00</updated>
+    <id>http://jhamon.github.io/blog/2014/10/01/a-few-debugging-tips-for-the-rails-console</id>
     <content type="html"><![CDATA[<p>This post will be a little less coherent than some of the others, but I wanted to write down a few things I&rsquo;ve found to be very helpful when trying to debug my Ruby code.</p>
 
 <h2>Quickly find syntax errors</h2>
@@ -394,50 +394,6 @@
 
 
 <p>If the <code>cache</code> method had been overridden, as it sometimes is by gems like <code>dalli_store</code>, I would see a reference to that gem instead of rails.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Building Elementary Cellular Automata in Ruby]]></title>
-    <link href="http://jhamon.github.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby/"/>
-    <updated>2014-10-09T01:31:32-07:00</updated>
-    <id>http://jhamon.github.io/blog/2014/10/09/building-elementary-cellular-automata-in-ruby</id>
-    <content type="html"><![CDATA[<p>Cellular automata are simulations where each location in a space can have a finite number of states (usually <code>on</code> or <code>off</code>, or <code>0</code> and <code>1</code>). The state at a particular location can change through time according to specific rules. Most such systems are fairly boring, but some sets of rules can give rise to surprisingly complex behavior.  Whole branches of math and computer science are devoted to the study of these simulations.</p>
-
-<p>There&rsquo;s a good chance you&rsquo;ve seen an implementation of <em>Conway&rsquo;s Game of Life</em>, which is the most well-known example of cellular automation. <em>Life</em> is set on a two-dimensional grid, and self-replicating <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns">patterns</a> called <em>gliders</em> are a common occurance.</p>
-
-<p><img src="http://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" style="float: right"></p>
-
-<p>I am not a computer scientist, but I find the dancing patterns mesmerizing.  As a fun exercise, I decided to take my layman&rsquo;s knowledge of cellular automation and build my own implementation of the 256 different Elementary Cellular Automata. These are also very beautiful, but have so far made a much smaller pop culture splash than their cousin <em>Life</em>.</p>
-
-<h2>Elementary Cellular Automata</h2>
-
-<p>The <em>Elementary</em> in <em>Elementary Cellular Automata</em> comes from the fact that the model space is restricted to only one dimension.  The grid in this case is a single row of pixels.  Rather than animating a one-pixel row, most representations of ECAs show time on the vertical axis by printing a new row for each timestep.</p>
-
-<p>From one time-step to the next, a pixel will live or die according to rules that examine the state of a pixel and the state of its two neighboring pixels.
-For convenience, we might represent the pattern in a particular location as the a three-digit string like <code>101</code> or <code>001</code>.  Since a particular pixel and its two neighbors can each be either a <code>1</code> or a <code>0</code>, there are <code>2*2*2 = 8</code> different possible patterns at a particular location.  The <a href="http://en.wikipedia.org/wiki/Elementary_cellular_automaton">Wikipedia article</a> goes into a lot of detail about how these rules are derived.</p>
-
-<h2>Program organization</h2>
-
-<p>A principal in good object-oriented design is to separate things that change from things that don&rsquo;t change.  With that in mind, I decided to use the composite pattern for the main <code>ElementaryCellularAutomata</code> class and abstract the changeable portions of the simulation logic their own classes.</p>
-
-<p>The 256 different kinds of rules into a <code>Rule</code> class.  A factory method configures the rule class to have a different behavior depending on the rule number.</p>
-
-<p>I also handle print functions in a <code>Printer</code> class following a template pattern.  This is so I can easily print output to the console with one class, or save to png image with anohter.  And I could easily extend it to other types of printers in the future (PDF, jpg, etc) as long as those classes provide a <code>print</code> method.</p>
-
-<p>You can check out the finished code and a gallery of the output <a href="https://github.com/jhamon/elementary_cellular_automata">on github</a>.</p>
-
-<h2>JavaScript reboot</h2>
-
-<p>Just for fun, I decided to build an animated JavaScript version of this code.</p>
-
-<p data-height="463" data-theme-id="9963" data-slug-hash="ogvpxQ" data-default-tab="result" data-user="jhamon" class='codepen'>See the Pen <a href='http://codepen.io/jhamon/pen/ogvpxQ/'>Elementary Cellular Automata</a> by Jennifer Hamon (<a href='http://codepen.io/jhamon'>@jhamon</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
-
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-
-
 ]]></content>
   </entry>
   
@@ -786,9 +742,9 @@ For convenience, we might represent the pattern in a particular location as the 
   
   <entry>
     <title type="html"><![CDATA[Improve Your Animation Performance With requestAnimationFrame]]></title>
-    <link href="http://jhamon.github.io/blog/2014/05/03/requestanimationframe/"/>
-    <updated>2014-05-03T07:09:19-07:00</updated>
-    <id>http://jhamon.github.io/blog/2014/05/03/requestanimationframe</id>
+    <link href="http://jhamon.github.io/blog/2014/06/03/requestanimationframe/"/>
+    <updated>2014-06-03T07:09:19-07:00</updated>
+    <id>http://jhamon.github.io/blog/2014/06/03/requestanimationframe</id>
     <content type="html"><![CDATA[<p>At their most basic core, browser animations have the following structure:</p>
 
 <ol>
@@ -853,6 +809,50 @@ For convenience, we might represent the pattern in a particular location as the 
 <p>Browser support is getting <a href="http://caniuse.com/#feat=requestanimationframe">pretty good</a>, and there are <a href="https://gist.github.com/paulirish/1579671">polyfills available</a> that will fall back to <code>setInterval</code> where it&rsquo;s unsupported.</p>
 
 <p>Now go forth and <code>requestAnimationFrame</code>!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Building Elementary Cellular Automata in Ruby]]></title>
+    <link href="http://jhamon.github.io/blog/2014/05/10/building-elementary-cellular-automata-in-ruby/"/>
+    <updated>2014-05-10T01:31:32-07:00</updated>
+    <id>http://jhamon.github.io/blog/2014/05/10/building-elementary-cellular-automata-in-ruby</id>
+    <content type="html"><![CDATA[<p>Cellular automata are simulations where each location in a space can have a finite number of states (usually <code>on</code> or <code>off</code>, or <code>0</code> and <code>1</code>). The state at a particular location can change through time according to specific rules. Most such systems are fairly boring, but some sets of rules can give rise to surprisingly complex behavior.  Whole branches of math and computer science are devoted to the study of these simulations.</p>
+
+<p>There&rsquo;s a good chance you&rsquo;ve seen an implementation of <em>Conway&rsquo;s Game of Life</em>, which is the most well-known example of cellular automation. <em>Life</em> is set on a two-dimensional grid, and self-replicating <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns">patterns</a> called <em>gliders</em> are a common occurance.</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" style="float: right"></p>
+
+<p>I am not a computer scientist, but I find the dancing patterns mesmerizing.  As a fun exercise, I decided to take my layman&rsquo;s knowledge of cellular automation and build my own implementation of the 256 different Elementary Cellular Automata. These are also very beautiful, but have so far made a much smaller pop culture splash than their cousin <em>Life</em>.</p>
+
+<h2>Elementary Cellular Automata</h2>
+
+<p>The <em>Elementary</em> in <em>Elementary Cellular Automata</em> comes from the fact that the model space is restricted to only one dimension.  The grid in this case is a single row of pixels.  Rather than animating a one-pixel row, most representations of ECAs show time on the vertical axis by printing a new row for each timestep.</p>
+
+<p>From one time-step to the next, a pixel will live or die according to rules that examine the state of a pixel and the state of its two neighboring pixels.
+For convenience, we might represent the pattern in a particular location as the a three-digit string like <code>101</code> or <code>001</code>.  Since a particular pixel and its two neighbors can each be either a <code>1</code> or a <code>0</code>, there are <code>2*2*2 = 8</code> different possible patterns at a particular location.  The <a href="http://en.wikipedia.org/wiki/Elementary_cellular_automaton">Wikipedia article</a> goes into a lot of detail about how these rules are derived.</p>
+
+<h2>Program organization</h2>
+
+<p>A principal in good object-oriented design is to separate things that change from things that don&rsquo;t change.  With that in mind, I decided to use the composite pattern for the main <code>ElementaryCellularAutomata</code> class and abstract the changeable portions of the simulation logic their own classes.</p>
+
+<p>The 256 different kinds of rules into a <code>Rule</code> class.  A factory method configures the rule class to have a different behavior depending on the rule number.</p>
+
+<p>I also handle print functions in a <code>Printer</code> class following a template pattern.  This is so I can easily print output to the console with one class, or save to png image with anohter.  And I could easily extend it to other types of printers in the future (PDF, jpg, etc) as long as those classes provide a <code>print</code> method.</p>
+
+<p>You can check out the finished code and a gallery of the output <a href="https://github.com/jhamon/elementary_cellular_automata">on github</a>.</p>
+
+<h2>JavaScript reboot</h2>
+
+<p>Just for fun, I decided to build an animated JavaScript version of this code.</p>
+
+<p data-height="463" data-theme-id="9963" data-slug-hash="ogvpxQ" data-default-tab="result" data-user="jhamon" class='codepen'>See the Pen <a href='http://codepen.io/jhamon/pen/ogvpxQ/'>Elementary Cellular Automata</a> by Jennifer Hamon (<a href='http://codepen.io/jhamon'>@jhamon</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+
+
 ]]></content>
   </entry>
   

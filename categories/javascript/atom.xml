@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Javascript | Jen Hamon]]></title>
   <link href="http://jhamon.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://jhamon.github.io/blog/"/>
-  <updated>2014-11-13T20:13:17-08:00</updated>
+  <updated>2014-11-15T21:39:17-08:00</updated>
   <id>http://jhamon.github.io/blog/</id>
   <author>
     <name><![CDATA[Jen Hamon]]></name>
@@ -232,9 +232,9 @@ function animate() {
   
   <entry>
     <title type="html"><![CDATA[Improve Your Animation Performance With requestAnimationFrame]]></title>
-    <link href="http://jhamon.github.io/blog/2014/05/03/requestanimationframe/"/>
-    <updated>2014-05-03T07:09:19-07:00</updated>
-    <id>http://jhamon.github.io/blog/2014/05/03/requestanimationframe</id>
+    <link href="http://jhamon.github.io/blog/2014/06/03/requestanimationframe/"/>
+    <updated>2014-06-03T07:09:19-07:00</updated>
+    <id>http://jhamon.github.io/blog/2014/06/03/requestanimationframe</id>
     <content type="html"><![CDATA[<p>At their most basic core, browser animations have the following structure:</p>
 
 <ol>
